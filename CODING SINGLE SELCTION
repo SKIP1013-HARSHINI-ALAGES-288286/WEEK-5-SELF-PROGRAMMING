@@ -1,0 +1,23 @@
+package selfProgramming;
+import java.util.*;
+public class SingleSelection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      Scanner sc = new Scanner (System.in);
+       
+       double hour, salary, ot_pay;
+       
+       System.out.println("Enter hour and salary: ");
+       hour = sc.nextDouble();
+       salary = sc.nextDouble();
+       
+       if (hour > 40)
+       {
+    	   ot_pay = 0.5 * salary;
+    	   System.out.println(ot_pay);
+       
+       }
+	}
+
+}
