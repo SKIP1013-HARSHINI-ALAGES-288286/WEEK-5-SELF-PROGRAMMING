@@ -1,0 +1,22 @@
+package selfProgramming;
+import java.util.*;
+public class DualSelection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner sc = new Scanner(System.in);
+
+double mark;
+
+System.out.println("Enter mark : ");
+mark = sc.nextDouble();
+
+if (mark>40)
+   System.out.println("PASS");
+
+else
+	System.out.println("FAIL");
+
+	}
+
+}
