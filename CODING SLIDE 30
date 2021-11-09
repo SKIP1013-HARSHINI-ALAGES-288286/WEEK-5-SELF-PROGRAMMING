@@ -1,0 +1,37 @@
+package selfProgramming;
+import java.util.*;
+class Slide30 {
+static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		
+		int mark;
+		
+		System.out.print("Enter marks: ");
+		mark = sc.nextInt();
+		
+		if ((mark >= 90) && (mark <=100))
+			{
+			System.out.print("Your grade is ");
+			System.out.println('A');
+			}
+		else if ((mark >= 80) && (mark >= 89))
+{
+			System.out.print("Your grade is ");
+			System.out.println('B');
+}
+else if ((mark >= 70) && (mark >= 79))
+{
+	System.out.print("Your grade is ");
+	System.out.println('C');
+}
+else if ((mark >= 60) && (mark >= 69))
+{
+	System.out.print("Your grade is ");
+	System.out.println('D');
+}
+else if ((mark >= 0) && (mark >= 59))
+{
+	System.out.print("Your grade is ");
+
+System.out.println('F');
+}
