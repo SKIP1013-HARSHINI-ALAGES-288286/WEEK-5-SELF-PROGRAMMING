@@ -1,0 +1,20 @@
+package selfProgramming;
+
+class Slide15 {
+
+	public static void main(String[] args) {
+		
+		int amount = 10;
+		int balance = 20;
+		
+		if (amount <= balance)
+		{
+			balance = balance - amount;
+			System.out.println("Acc new balance = " + balance);
+		}
+		
+		
+		}
+	}
+
+
