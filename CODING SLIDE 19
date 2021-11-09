@@ -1,0 +1,19 @@
+package selfProgramming;
+
+class Slide19 {
+
+	public static void main(String[] args) {
+		int amount = 950;
+		int balance = 1500;
+		
+		if  ((amount <= 1000.0) && (amount <= balance))
+		{ 
+			balance = balance - amount;
+			System.out.println("Acct new balance = " + balance);
+			
+		}
+
+
+	}
+
+}
